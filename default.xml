@@ -261,17 +261,17 @@ limitations under the License.
 
   <!-- SVMP -->
   
-  <project path="device/mitre/svmp" remote="github" revision="refs/heads/master" name="SVMP/aosp/android_device_mitre_svmp" />
-  <project path="external/svmp/input" remote="github" revision="refs/heads/master" name="SVMP/aosp/android_external_svmp_eventserver" />
-  <project path="external/svmp/fbstream" remote="github" revision="refs/heads/master" name="SVMP/aosp/android_external_svmp_fbstream" />
-  <project path="external/svmp/fbset" remote="github" revision="refs/heads/master" name="SVMP/aosp/android_external_svmp_fbset" />
-  <project path="external/svmp/rtspserv" remote="github" revision="refs/heads/master" name="SVMP/aosp/android_external_svmp_rtspserv" />
-  <project path="external/svmp/SVMPProtocol" remote="github" revision="refs/heads/master" name="SVMP/aosp/android_external_svmp_protocol" />
-  <project path="external/svmp/netintents" remote="github" revision="refs/heads/master" name="SVMP/aosp/android_external_svmp_netintents" />
+  <project path="device/mitre/svmp" remote="github" revision="refs/heads/master" name="SVMP/android_device_mitre_svmp" />
+  <project path="external/svmp/input" remote="github" revision="refs/heads/master" name="SVMP/android_external_svmp_eventserver" />
+  <project path="external/svmp/fbstream" remote="github" revision="refs/heads/master" name="SVMP/android_external_svmp_fbstream" />
+  <project path="external/svmp/fbset" remote="github" revision="refs/heads/master" name="SVMP/android_external_svmp_fbset" />
+  <project path="external/svmp/rtspserv" remote="github" revision="refs/heads/master" name="SVMP/android_external_svmp_rtspserv" />
+  <project path="external/svmp/SVMPProtocol" remote="github" revision="refs/heads/master" name="SVMP/android_external_svmp_protocol" />
+  <!--<project path="external/svmp/netintents" remote="github" revision="refs/heads/master" name="SVMP/android_external_svmp_netintents" />-->
   
   <!-- SVMP: mainline android projects we patched -->
-  <project path="bootable/diskinstaller" remote="github" revision="refs/heads/master" name="SVMP/aosp/android_bootable_diskinstaller" />
-  <project path="system/core" remote="github" revision="refs/heads/master" name="SVMP/aosp/android_system_core" />
+  <project path="bootable/diskinstaller" remote="github" revision="refs/heads/master" name="SVMP/android_bootable_diskinstaller" />
+  <project path="system/core" remote="github" revision="refs/heads/master" name="SVMP/android_system_core" />
 
   <!-- SVMP Extra external dependancies -->
   <project path="external/busybox" remote="github" revision="refs/heads/master"  name="SVMP/aosp/android_external_busybox" />
