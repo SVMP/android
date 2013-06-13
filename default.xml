@@ -173,7 +173,7 @@ limitations under the License.
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
   <project path="external/yaffs2" name="platform/external/yaffs2" />
   <project path="external/zlib" name="platform/external/zlib" />
-  <project path="frameworks/base" name="platform/frameworks/base" />
+  <!--<project path="frameworks/base" name="platform/frameworks/base" />-->
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" />
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" />
@@ -274,6 +274,7 @@ limitations under the License.
   <!-- SVMP: mainline android projects we patched -->
   <project path="bootable/diskinstaller" remote="github" revision="refs/heads/master" name="SVMP/android_bootable_diskinstaller" />
   <project path="system/core" remote="github" revision="refs/heads/master" name="SVMP/android_system_core" />
+  <project path="frameworks/base" remote="github" revision="refs/heads/master" name="SVMP/android_frameworks_base" />
 
   <!-- SVMP Extra external dependancies -->
   <project path="external/busybox" remote="github" revision="refs/heads/master"  name="SVMP/aosp/android_external_busybox" />
