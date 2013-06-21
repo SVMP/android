@@ -278,7 +278,7 @@ limitations under the License.
 
   <!-- SVMP Extra external dependancies -->
   <project path="external/busybox" remote="github" revision="refs/heads/master"  name="SVMP/android_external_busybox" />
-  <project path="kernel/linux-stable" remote="kernel" revision="refs/tags/v3.4.49" name="linux-stable" />
+  <project path="kernel/linux-stable" remote="kernel" revision="refs/tags/v3.4.50" name="linux-stable" />
 
   <!-- SVMP Client App -->
   <!-- not hooked into the AOSP build process, but added here for ease of
