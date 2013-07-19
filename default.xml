@@ -268,7 +268,7 @@ limitations under the License.
   <project path="external/svmp/fbstream" remote="github" revision="refs/heads/master" name="SVMP/android_external_svmp_fbstream" />
   <project path="external/svmp/fbset" remote="github" revision="refs/heads/master" name="SVMP/android_external_svmp_fbset" />
   <project path="external/svmp/rtspserv" remote="github" revision="refs/heads/master" name="SVMP/android_external_svmp_rtspserv" />
-  <project path="external/svmp/SVMPProtocol" remote="github" revision="refs/heads/master" name="SVMP/android_external_svmp_protocol" />
+  <project path="external/svmp/SVMPProtocol" remote="github" revision="refs/heads/master" name="SVMP/svmp-protocol-def" />
   <!--<project path="external/svmp/netintents" remote="github" revision="refs/heads/master" name="SVMP/android_external_svmp_netintents" />-->
   
   <!-- SVMP: mainline android projects we patched -->
