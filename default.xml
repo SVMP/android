@@ -263,7 +263,9 @@ limitations under the License.
 
   <!-- SVMP -->
 
-  <project path="device/mitre/svmp" remote="github" revision="refs/heads/master" name="SVMP/android_device_mitre_svmp" />
+  <project path="device/mitre/svmp" remote="github" revision="refs/heads/master" name="SVMP/android_device_mitre_svmp" >
+    <copyfile src="build-svmp.sh" dest="build-svmp.sh" />
+  </project>
   <project path="external/svmp/input" remote="github" revision="refs/heads/master" name="SVMP/android_external_svmp_eventserver" />
   <!--<project path="external/svmp/fbstream/trunk" remote="github" revision="refs/heads/fbstreamer_v3" name="SVMP/android_external_svmp_fbstream" />-->
   <project path="external/svmp/fbset" remote="github" revision="refs/heads/master" name="SVMP/android_external_svmp_fbset" />
