@@ -263,29 +263,28 @@ limitations under the License.
 
   <!-- SVMP -->
   
-  <project path="device/mitre/svmp" remote="github" revision="refs/heads/svmp-1.0" name="SVMP/android_device_mitre_svmp" >
+  <project path="device/mitre/svmp" remote="github" revision="refs/heads/svmp-1.1" name="SVMP/android_device_mitre_svmp" >
     <copyfile src="build-svmp.sh" dest="build-svmp.sh" />
   </project>
-  <project path="external/svmp/input" remote="github" revision="refs/heads/svmp-1.0" name="SVMP/android_external_svmp_eventserver" />
+  <project path="external/svmp/input" remote="github" revision="refs/heads/svmp-1.1" name="SVMP/android_external_svmp_eventserver" />
 <!--  <project path="external/svmp/fbstream/trunk" remote="github" revision="refs/heads/fbstreamer_v3" name="SVMP/android_external_svmp_fbstream" />-->
-  <project path="external/svmp/fbset" remote="github" revision="refs/heads/svmp-1.0" name="SVMP/android_external_svmp_fbset" />
-  <project path="external/svmp/rtspserv" remote="github" revision="refs/heads/svmp-1.0" name="SVMP/android_external_svmp_rtspserv" />
-  <project path="external/svmp/SVMPProtocol" remote="github" revision="refs/heads/svmp-1.0" name="SVMP/svmp-protocol-def" />
-  <project path="external/svmp/webrtchelper" remote="github" revision="refs/heads/svmp-1.0" name="SVMP/android_external_svmp_webrtchelper" />
+  <project path="external/svmp/fbset" remote="github" revision="refs/heads/svmp-1.1" name="SVMP/android_external_svmp_fbset" />
+  <project path="external/svmp/SVMPProtocol" remote="github" revision="refs/heads/svmp-1.1" name="SVMP/svmp-protocol-def" />
+  <project path="external/svmp/webrtchelper" remote="github" revision="refs/heads/svmp-1.1" name="SVMP/android_external_svmp_webrtchelper" />
   
   <!-- SVMP: mainline android projects we patched -->
-  <project path="bootable/diskinstaller" remote="github" revision="refs/heads/svmp-1.0" name="SVMP/android_bootable_diskinstaller" />
-  <project path="frameworks/base" remote="github" revision="refs/heads/svmp-1.0" name="SVMP/android_frameworks_base" />
-  <project path="libcore" remote="github" revision="refs/heads/svmp-1.0" name="SVMP/android_libcore" />
-  <project path="system/core" remote="github" revision="refs/heads/svmp-1.0" name="SVMP/android_system_core" />
+  <project path="bootable/diskinstaller" remote="github" revision="refs/heads/svmp-1.1" name="SVMP/android_bootable_diskinstaller" />
+  <project path="frameworks/base" remote="github" revision="refs/heads/svmp-1.1" name="SVMP/android_frameworks_base" />
+  <project path="libcore" remote="github" revision="refs/heads/svmp-1.1" name="SVMP/android_libcore" />
+  <project path="system/core" remote="github" revision="refs/heads/svmp-1.1" name="SVMP/android_system_core" />
 
   <!-- SVMP Extra external dependancies -->
-  <project path="external/busybox" remote="github" revision="refs/heads/svmp-1.0"  name="SVMP/android_external_busybox" />
-  <project path="kernel/linux-stable" remote="github" revision="refs/heads/svmp-1.0" name="SVMP/kernel" />
+  <project path="external/busybox" remote="github" revision="refs/heads/svmp-1.1"  name="SVMP/android_external_busybox" />
+  <project path="kernel/linux-stable" remote="github" revision="refs/heads/svmp-1.1" name="SVMP/kernel" />
 
   <!-- SVMP Client App -->
   <!-- not hooked into the AOSP build process, but added here for ease of
        updating the client/server code that needs to stay in sync -->
-  <project path="SVMPClient" remote="github" revision="refs/heads/svmp-1.0"  name="SVMP/svmp-android-client" />
+  <project path="SVMPClient" remote="github" revision="refs/heads/svmp-1.1"  name="SVMP/svmp-android-client" />
 
 </manifest>
