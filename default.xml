@@ -111,7 +111,7 @@ limitations under the License.
   <project path="external/genext2fs" name="platform/external/genext2fs" />
   <project path="external/giflib" name="platform/external/giflib" />
   <project path="external/google-diff-match-patch" name="platform/external/google-diff-match-patch" />
-  <project path="external/grub" name="platform/external/grub" />
+  <!--<project path="external/grub" name="platform/external/grub" />-->
   <project path="external/gtest" name="platform/external/gtest" groups="pdk" />
   <project path="external/guava" name="platform/external/guava" />
   <project path="external/hamcrest" name="platform/external/hamcrest" />
@@ -383,6 +383,7 @@ limitations under the License.
   
   <!-- SVMP: mainline android projects we patched -->
   <project path="bootable/diskinstaller" remote="github" revision="refs/heads/svmp-1.1" name="SVMP/android_bootable_diskinstaller" />
+  <project path="external/grub" remote="github" revision="refs/heads/svmp-1.1" name="SVMP/android_external_grub" />
   <project path="frameworks/base" remote="github" revision="refs/heads/svmp-1.1" name="SVMP/android_frameworks_base" />
   <project path="libcore" remote="github" revision="refs/heads/svmp-1.1" name="SVMP/android_libcore" />
   <project path="system/core" remote="github" revision="refs/heads/svmp-1.1" name="SVMP/android_system_core" />
