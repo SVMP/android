@@ -229,7 +229,7 @@ limitations under the License.
   <project path="frameworks/ex" name="platform/frameworks/ex" />
   <project path="frameworks/mff" name="platform/frameworks/mff" />
   <project path="frameworks/ml" name="platform/frameworks/ml" />
-  <project path="frameworks/native" name="platform/frameworks/native" groups="pdk" />
+  <!--<project path="frameworks/native" name="platform/frameworks/native" groups="pdk" />-->
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" />
   <project path="frameworks/opt/carddav" name="platform/frameworks/opt/carddav" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
@@ -377,13 +377,15 @@ limitations under the License.
   </project>
   <project path="external/svmp/input" remote="github" revision="refs/heads/svmp-1.1" name="SVMP/android_external_svmp_eventserver" />
 <!--  <project path="external/svmp/fbstream/trunk" remote="github" revision="refs/heads/fbstreamer_v3" name="SVMP/android_external_svmp_fbstream" />-->
-  <project path="external/svmp/SVMPProtocol" remote="github" revision="refs/heads/svmp-1.1" name="SVMP/svmp-protocol-def" />
+  <!--<project path="external/svmp/SVMPProtocol" remote="github" revision="refs/heads/svmp-1.1" name="SVMP/svmp-protocol-def" />-->
+  <project path="svmp-protocol-def" remote="github" revision="refs/heads/svmp-1.1" name="SVMP/svmp-protocol-def" />
   <project path="external/svmp/webrtchelper" remote="github" revision="refs/heads/svmp-1.1" name="SVMP/android_external_svmp_webrtchelper" />
   
   <!-- SVMP: mainline android projects we patched -->
   <project path="bootable/diskinstaller" remote="github" revision="refs/heads/svmp-1.1" name="SVMP/android_bootable_diskinstaller" />
   <project path="external/grub" remote="github" revision="refs/heads/svmp-1.1" name="SVMP/android_external_grub" />
   <project path="frameworks/base" remote="github" revision="refs/heads/svmp-1.1" name="SVMP/android_frameworks_base" />
+  <project path="frameworks/native" remote="github" revision="refs/heads/svmp-1.1" name="SVMP/android_frameworks_native" groups="pdk" />
   <project path="libcore" remote="github" revision="refs/heads/svmp-1.1" name="SVMP/android_libcore" />
   <project path="system/core" remote="github" revision="refs/heads/svmp-1.1" name="SVMP/android_system_core" />
 
@@ -394,6 +396,6 @@ limitations under the License.
   <!-- SVMP Client App -->
   <!-- not hooked into the AOSP build process, but added here for ease of
        updating the client/server code that needs to stay in sync -->
-  <project path="SVMPClient" remote="github" revision="refs/heads/svmp-1.1"  name="SVMP/svmp-android-client" />
+  <project path="svmp-android-client" remote="github" revision="refs/heads/svmp-1.1"  name="SVMP/svmp-android-client" />
 
 </manifest>
