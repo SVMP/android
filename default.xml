@@ -393,9 +393,4 @@ limitations under the License.
   <project path="external/busybox" remote="github" revision="refs/heads/svmp-1.1"  name="SVMP/android_external_busybox" />
   <project path="kernel/android-3.4" remote="github" revision="refs/heads/svmp-1.1" name="SVMP/android-kernel" />
 
-  <!-- SVMP Client App -->
-  <!-- not hooked into the AOSP build process, but added here for ease of
-       updating the client/server code that needs to stay in sync -->
-  <project path="svmp-android-client" remote="github" revision="refs/heads/svmp-1.1"  name="SVMP/svmp-android-client" />
-
 </manifest>
