@@ -384,10 +384,8 @@ limitations under the License.
   <project path="frameworks/base" remote="github" revision="refs/heads/svmp-1.1" name="SVMP/android_frameworks_base" />
   <project path="frameworks/native" remote="github" revision="refs/heads/svmp-1.1" name="SVMP/android_frameworks_native" groups="pdk" />
   <project path="libcore" remote="github" revision="refs/heads/svmp-1.1" name="SVMP/android_libcore" />
-  <!--<project path="system/core" remote="github" revision="refs/heads/svmp-1.1" name="SVMP/android_system_core" />-->
 
   <!-- SVMP Extra external dependancies -->
-  <project path="external/busybox" remote="github" revision="refs/heads/svmp-1.1"  name="SVMP/android_external_busybox" />
   <project path="kernel/android-3.4" remote="github" revision="refs/heads/svmp-1.1" name="SVMP/android-kernel" />
 
 </manifest>
