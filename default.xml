@@ -372,11 +372,11 @@ limitations under the License.
 
   <!-- SVMP -->
   
-  <project path="device/mitre/svmp" remote="github" revision="refs/heads/svmp-1.1" name="SVMP/android_device_mitre_svmp" >
+  <project path="device/mitre/svmp" remote="github" revision="master" name="SVMP/android_device_mitre_svmp" >
     <copyfile src="build-svmp.sh" dest="build-svmp.sh" />
   </project>
-  <project path="external/svmp/svmpd" remote="github" revision="refs/heads/svmp-1.1" name="SVMP/android_external_svmp_eventserver" />
-  <project path="external/svmp/svmp-protocol-def" remote="github" revision="refs/heads/svmp-1.1" name="SVMP/svmp-protocol-def" />
+  <project path="external/svmp/svmpd" remote="github" revision="master" name="SVMP/android_external_svmp_eventserver" />
+  <project path="external/svmp/svmp-protocol-def" remote="github" revision="master" name="SVMP/svmp-protocol-def" />
   
   <!-- SVMP: mainline android projects we patched -->
   <project path="bootable/diskinstaller" remote="github" revision="refs/heads/svmp-1.1" name="SVMP/android_bootable_diskinstaller" />
