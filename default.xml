@@ -387,5 +387,6 @@ limitations under the License.
 
   <!-- SVMP Extra external dependancies -->
   <project path="kernel/android-3.4" remote="github" revision="refs/heads/svmp-1.1" name="SVMP/android-kernel" />
+  <project path="kernel/intel" remote="github" revision="refs/heads/svmp-1.4" name="SVMP/kernel_intel" />
 
 </manifest>
