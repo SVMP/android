@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-Copyright (c) 2012-2013, The MITRE Corporation, All Rights Reserved.
+Copyright (c) 2012-2014, The MITRE Corporation, All Rights Reserved.
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
@@ -372,21 +372,21 @@ limitations under the License.
 
   <!-- SVMP -->
   
-  <project path="device/mitre/svmp" remote="github" revision="master" name="SVMP/android_device_mitre_svmp" >
+  <project path="device/mitre/svmp" remote="github" revision="refs/tags/svmp-1.4" name="SVMP/android_device_mitre_svmp" >
     <copyfile src="build-svmp.sh" dest="build-svmp.sh" />
   </project>
-  <project path="external/svmp/svmpd" remote="github" revision="master" name="SVMP/android_external_svmp_eventserver" />
-  <project path="external/svmp/svmp-protocol-def" remote="github" revision="master" name="SVMP/svmp-protocol-def" />
+  <project path="external/svmp/svmpd" remote="github" revision="refs/tags/svmp-1.4" name="SVMP/android_external_svmp_eventserver" />
+  <project path="external/svmp/svmp-protocol-def" remote="github" revision="refs/tags/svmp-1.4" name="SVMP/svmp-protocol-def" />
   
   <!-- SVMP: mainline android projects we patched -->
-  <project path="bootable/diskinstaller" remote="github" revision="refs/heads/svmp-1.x" name="SVMP/android_bootable_diskinstaller" />
-  <project path="external/grub" remote="github" revision="refs/heads/svmp-1.x" name="SVMP/android_external_grub" />
-  <project path="frameworks/base" remote="github" revision="refs/heads/svmp-1.x" name="SVMP/android_frameworks_base" />
-  <project path="frameworks/native" remote="github" revision="refs/heads/svmp-1.x" name="SVMP/android_frameworks_native" groups="pdk" />
-  <project path="libcore" remote="github" revision="refs/heads/svmp-1.x" name="SVMP/android_libcore" />
+  <project path="bootable/diskinstaller" remote="github" revision="refs/tags/svmp-1.4" name="SVMP/android_bootable_diskinstaller" />
+  <project path="external/grub" remote="github" revision="refs/tags/svmp-1.4" name="SVMP/android_external_grub" />
+  <project path="frameworks/base" remote="github" revision="refs/tags/svmp-1.4" name="SVMP/android_frameworks_base" />
+  <project path="frameworks/native" remote="github" revision="refs/tags/svmp-1.4" name="SVMP/android_frameworks_native" groups="pdk" />
+  <project path="libcore" remote="github" revision="refs/tags/svmp-1.4" name="SVMP/android_libcore" />
 
   <!-- SVMP Extra external dependancies -->
-  <project path="kernel/android-3.4" remote="github" revision="refs/heads/svmp-1.x" name="SVMP/android-kernel" />
-  <project path="kernel/intel" remote="github" revision="refs/heads/svmp-1.x" name="SVMP/kernel_intel" />
+  <project path="kernel/android-3.4" remote="github" revision="refs/tags/svmp-1.4" name="SVMP/android-kernel" />
+  <project path="kernel/intel" remote="github" revision="refs/tags/svmp-1.4" name="SVMP/kernel_intel" />
 
 </manifest>
