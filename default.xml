@@ -249,7 +249,7 @@ limitations under the License.
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" />
 -->
   <project path="hardware/libhardware" name="platform/hardware/libhardware" groups="pdk" />
-  <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" groups="pdk" />
+  <!--<project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" groups="pdk" />-->
 <!--
   <project path="hardware/msm7k" name="platform/hardware/msm7k" />
   <project path="hardware/qcom/audio" name="platform/hardware/qcom/audio" groups="qcom" />
@@ -383,6 +383,7 @@ limitations under the License.
   <project path="external/grub" remote="github" revision="refs/heads/svmp-1.x" name="SVMP/android_external_grub" />
   <project path="frameworks/base" remote="github" revision="refs/heads/svmp-1.x" name="SVMP/android_frameworks_base" />
   <project path="frameworks/native" remote="github" revision="refs/heads/svmp-1.x" name="SVMP/android_frameworks_native" groups="pdk" />
+  <project path="hardware/libhardware_legacy" remote="github" revision="refs/heads/svmp-1.x" name="SVMP/android_hardware_libhardware_legacy" groups="pdk" />
   <project path="libcore" remote="github" revision="refs/heads/svmp-1.x" name="SVMP/android_libcore" />
 
   <!-- SVMP Extra external dependancies -->
