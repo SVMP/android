@@ -483,5 +483,6 @@ limitations under the License.
 
   <!-- SVMP Extra external dependancies -->
   <project path="kernel/android" remote="svmp" revision="refs/heads/svmp-2.x" name="SVMP/android-kernel" />
+  <project path="hardware/intel/hwcomposer" remote="github" revision="release/android-4.2.2_r1-ia3" name="android-ia/hardware_intel_hwcomposer" />
 
 </manifest>
