@@ -471,7 +471,7 @@ limitations under the License.
   <project path="device/mitre/svmp" remote="svmp" revision="svmp-2.x" name="android_device_mitre_svmp" >
     <copyfile src="build-svmp.sh" dest="build-svmp.sh" />
   </project>
-  <project path="external/svmp/svmpd" remote="svmp" revision="master" name="android_external_svmp_eventserver" />
+  <project path="external/svmp/svmpd" remote="svmp" revision="svmp-2.x" name="android_external_svmp_eventserver" />
   <project path="external/svmp/svmp-protocol-def" remote="svmp" revision="master" name="svmp-protocol-def" />
 
   <!-- SVMP: mainline android projects we patched -->
