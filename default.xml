@@ -197,12 +197,12 @@ limitations under the License.
   <project path="external/libyuv" name="platform/external/libyuv" groups="libyuv" />
   <project path="external/linux-tools-perf" name="platform/external/linux-tools-perf" />
   <project path="external/littlemock" name="platform/external/littlemock" />
-  <!--<project path="external/llvm" name="platform/external/llvm" groups="pdk" />-->
+  <project path="external/llvm" name="platform/external/llvm" groups="pdk" />
   <project path="external/lzma" name="platform/external/lzma" />
   <project path="external/marisa-trie" name="platform/external/marisa-trie" />
   <project path="external/markdown" name="platform/external/markdown" />
   <project path="external/mdnsresponder" name="platform/external/mdnsresponder" groups="pdk" />
-  <!--<project path="external/mesa3d" name="platform/external/mesa3d" />-->
+  <project path="external/mesa3d" name="platform/external/mesa3d" />
   <project path="external/mksh" name="platform/external/mksh" groups="pdk" />
   <project path="external/mockito" name="platform/external/mockito" />
   <project path="external/mockwebserver" name="platform/external/mockwebserver" />
@@ -468,10 +468,10 @@ limitations under the License.
 
   <!-- SVMP -->
 
-  <project path="device/mitre/svmp" remote="svmp" revision="svmp-2.x" name="android_device_mitre_svmp" >
+  <project path="device/mitre/svmp" remote="svmp" revision="master" name="android_device_mitre_svmp" >
     <copyfile src="build-svmp.sh" dest="build-svmp.sh" />
   </project>
-  <project path="external/svmp/svmpd" remote="svmp" revision="svmp-2.x" name="android_external_svmp_eventserver" />
+  <project path="external/svmp/svmpd" remote="svmp" revision="master" name="android_external_svmp_eventserver" />
   <project path="external/svmp/svmp-protocol-def" remote="svmp" revision="master" name="svmp-protocol-def" />
 
   <!-- SVMP: mainline android projects we patched -->
@@ -480,11 +480,15 @@ limitations under the License.
   <project path="frameworks/base" remote="svmp" revision="svmp-2.x" name="android_frameworks_base" />
   <project path="frameworks/native" remote="svmp" revision="svmp-2.x" name="android_frameworks_native" groups="pdk" />
   <project path="hardware/libhardware_legacy" remote="svmp" revision="svmp-2.x" name="android_hardware_libhardware_legacy" groups="pdk" />
-  <project path="external/mesa3d" remote="svmp" revision="svmp-2.x" name="android_external_mesa3d" />
-  <project path="external/llvm" remote="svmp" revision="svmp-2.x" name="android_external_llvm" groups="pdk" />
 
   <!-- SVMP Extra external dependancies -->
   <project path="kernel/android" remote="svmp" revision="svmp-2.x" name="android-kernel" />
+
+  <!-- mesa graphics experiment, disabled for now -->
+  <!--
+  <project path="external/mesa3d" remote="svmp" revision="svmp-2.x" name="android_external_mesa3d" />
+  <project path="external/llvm" remote="svmp" revision="svmp-2.x" name="android_external_llvm" groups="pdk" />
   <project path="hardware/intel/hwcomposer" remote="github" revision="release/android-4.2.2_r1-ia3" name="android-ia/hardware_intel_hwcomposer" />
+  -->
 
 </manifest>
